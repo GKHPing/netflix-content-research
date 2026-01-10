@@ -1,4 +1,4 @@
-# # Netflix Content Strategy Research 
+## Netflix Content Strategy Research 
 Applied research using public Netflix catalog data to explore global content strategy
 
 ## Why This Project Exists
