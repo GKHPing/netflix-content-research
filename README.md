@@ -1,12 +1,19 @@
 ## Netflix Content Strategy Research 
-Applied research using public Netflix catalog data to explore global content strategy
+This project explores trends in Netflix’s global content catalog using publicly available data.
+The goal is to demonstrate applied research thinking relevant to content strategy,
+localization, and platform growth.
 
-## Why This Project Exists
-This project demonstrates how applied data research can inform decisions around
-content strategy, localization, and platform growth using publicly available data.
+## Methodology
 
-It is designed as a research-style analysis rather than a dashboard or technical demo. 
-Disclamier: This project uses public data on Kaggle and does not represent Netflix internal data models or strategic decisions, main purpose is to showcase my capabilities to deliver research based analysis.
+- It is designed as a research-style analysis rather than a dashboard or technical demo. 
+- Uses public data on Kaggle and does not represent Netflix internal data models or strategic decisions
+- Data cleaning and feature engineering
+- Descriptive and comparative analysis across regions and time
+- Visualization-driven insight development
+
+## Dataset
+Public Netflix catalog metadata sourced from Kaggle.
+Includes title type, genre, release year, country availability, and duration.
 
 ## Research Questions
 - How has Netflix’s content mix (movies vs series) evolved over time?
@@ -17,6 +24,11 @@ Disclamier: This project uses public data on Kaggle and does not represent Netfl
 - Reproducible Kaggle notebook
 - Visual summaries for non-technical stakeholders
 - Written research narrative
+
+## Key Findings
+- Netflix has increasingly prioritized series over movies since ~2016
+- A small subset of genres dominates global distribution
+- Regional catalogs show increasing localization in recent years
 
 ## Links
 - Kaggle Notebook: *coming soon*
