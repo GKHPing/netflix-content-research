@@ -39,9 +39,7 @@ Limitations:
 ## 5. Analysis & Findings
 
 1) How has Netflix’s content mix (movies vs series) evolved over time?
--To examine content mix evolution, titles are grouped by year added and content type.
-Proportions are used instead of raw counts to control for overall catalogue growth.
--The results show a clear shift in Netflix’s catalogue composition over time,
+The results show a clear shift in Netflix’s catalogue composition over time,
 with TV series representing an increasing share of newly added titles,
 consistent with a strategy focused on subscriber retention and episodic engagement.
 
