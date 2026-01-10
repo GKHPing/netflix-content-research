@@ -1,26 +1,18 @@
 ## Dataset name
-
 Netflix Movies and TV shows within South East Asia, Australia/New Zealand, and Taiwan/Hong Kong.
 
 ## TMDB Source
-
 TMDB offers a powerful API service that allowed me to call and pull a curated dataset of Netflix content sourced from TMDb,
 including titles, genres spilt between movies and tv shows
 
 ## Dataset used
-
-This tabular dataset consists of listings of all the movies and tv shows available on Netflix and I limit it to 50 pages.
+This tabular dataset consists of listings of all the movies and tv shows available on Netflix and I limit it to 50 pages. It includes details such as titles, genres, release dates, ratings, descriptions, and other relevant metadata. 
+The dataset has been curated to provide a comprehensive overview of Netflix's content library, making it useful for data analysis.
 
 Only checks Netflix availability in for faster than global fetch since regions are limited:
-
-Southeast Asia: SG, MY, ID, PH, TH, VN, BN
-
-Australia & NZ: AU, NZ
-
-Taiwan & Hong Kong: TW, HK
+- Southeast Asia: SG, MY, ID, PH, TH, VN, BN
+- Australia & NZ: AU, NZ
+- Taiwan & Hong Kong: TW, HK
 
 Deduplicates titles globally across these regions.
 
-
-It includes details such as titles, genres, release dates, ratings, descriptions, and other relevant metadata. 
-The dataset has been curated to provide a comprehensive overview of Netflix's content library, making it useful for data analysis.
