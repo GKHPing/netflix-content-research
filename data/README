@@ -1,1 +1,13 @@
+## Dataset name
+Netflix Movies and TV shows till 2025
 
+## Kaggle Source
+A curated dataset of Netflix content sourced from TMDb, including titles, genres spilt between movies and tv shows
+netflix_movies_detailed_up_to_2025.csv 7.86 MB (https://www.kaggle.com/datasets/bhargavchirumamilla/netflix-movies-and-tv-shows-till-2025)
+netflix_tv_shows_detailed_up_to_2025.csv 6.97MB (https://www.kaggle.com/datasets/bhargavchirumamilla/netflix-movies-and-tv-shows-till-2025)
+
+
+## Dataset used
+This tabular dataset consists of listings of all the movies and tv shows available on Netflix.
+It includes details such as titles, genres, release dates, ratings, descriptions, and other relevant metadata. 
+The dataset has been curated to provide a comprehensive overview of Netflix's content library, making it useful for data analysis, recommendation systems, and trend exploration.
