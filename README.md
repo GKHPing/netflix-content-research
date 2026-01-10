@@ -6,13 +6,13 @@ localization, and platform growth.
 ## Methodology
 
 - It is designed as a research-style analysis rather than a dashboard or technical demo. 
-- Uses public data on Kaggle and does not represent Netflix internal data models or strategic decisions
+- Uses public data on TMDB and does not represent Netflix internal data models or strategic decisions
 - Data cleaning and feature engineering
 - Descriptive and comparative analysis across regions and time
 - Visualization-driven insight development
 
 ## Dataset
-Public Netflix catalog metadata sourced from Kaggle.
+Public Netflix catalog metadata sourced from TMDB API.
 Includes title type, genre, release year, country availability, and duration.
 
 ## Research Questions
@@ -21,15 +21,12 @@ Includes title type, genre, release year, country availability, and duration.
 - How does regional localization vary across markets?
 
 ## Deliverables
-- Reproducible Kaggle notebook
 - Visual summaries for non-technical stakeholders
-- Written research narrative
+- Written research narrative based on regions in SEA/New Zealand/Australia/Taiwan/Hong Kong
 
 ## Key Findings
 - Netflix has increasingly prioritized series over movies since ~2016
 - A small subset of genres dominates global distribution
 - Regional catalogs show increasing localization in recent years
 
-## Links
-- Kaggle Notebook: *coming soon*
-- Written Analysis: *coming soon*
+
