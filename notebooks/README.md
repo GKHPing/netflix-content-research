@@ -4,7 +4,7 @@ Using publicly available catalogue metadata, this analysis examines how Netflixâ
 has evolved along three dimensions:
 
 1. The balance between movies and series over time.
-2. The extent to which different genres are globally distributed.
+2. The extent to which different genres are regionally distributed.
 3. How localisation varies across major regional markets.
 
 This analysis is descriptive rather than causal and focuses on supply-side strategy rather than user behaviour.
@@ -16,25 +16,25 @@ Each row represents a title made available on the platform.
 
 Key fields used:
 - `type`: Movie or TV Show
-- `listed_in`: Genre classifications
-- `country`: Country or countries associated with the title
-- `date_added`: Date the title was added to Netflix
+- `genres`: Genre classifications
+- `regions`: Country region associated with the title
+- `date_added_estimated`: Date the title was added to Netflix
 
 Limitations:
 - No viewership or engagement data
-- Country labels do not necessarily indicate production location
 - Multi-country entries complicate regional attribution
-- `date_added` reflects catalogue timing, not original release
 
+## 2. Pull data from TMDB via API
+
+-NETFLIX_PROVIDER_ID = 8    # TMDB provider ID for Netflix
+-regions = ["SG","MY","ID","PH","TH","VN","BN","AU","NZ","TW","HK"]
 
 ## 3. Data Cleaning
 
--Parse dates and basic cleaning of genre and country fields
+-Parse dates and basic cleaning of genre and data added estimate fields
+-Limit data to 2025
+-Deduplicate titles
 
-## 4. Feature Engineering
-
--spilt genres and countries
--create global distribution proxy
 
 ## 5. Analysis & Findings
 
@@ -43,7 +43,7 @@ The results show a clear shift in Netflixâ€™s catalogue composition over time,
 with TV series representing an increasing share of newly added titles,
 consistent with a strategy focused on subscriber retention and episodic engagement.
 
-2) Which genres appear most globally distributed?
+2) Which genres appear most regionally distributed?
 Genres such as International Dramas and Documentaries exhibit broader geographic
 distribution, suggesting higher portability across markets.
 Conversely, culturally specific genres tend to have narrower distribution.
@@ -54,16 +54,7 @@ globally diverse catalogue. In contrast, markets like India and South Korea show
 higher localisation, consistent with strong domestic production ecosystems.
 
 
-## 6. Implications for Content Strategy
-
-The findings suggest that Netflix increasingly prioritises series-based content,
-deploys globally portable genres at scale, and varies localisation intensity
-depending on market maturity and domestic production strength.
-
-These patterns highlight a hybrid strategy balancing global efficiency with
-regional relevance.
-
-## 7. Next Steps
+## 6. Next Steps
 
 With access to internal data, future research could:
 - Link catalogue composition to subscriber retention outcomes
