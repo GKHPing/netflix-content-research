@@ -1,5 +1,5 @@
 ## Netflix Content Strategy Research 
-This project explores trends in Netflix’s global content catalog using publicly available data.
+This project explores trends in Netflix’s content catalog using publicly available data.
 The goal is to demonstrate applied research thinking relevant to content strategy,
 localization, and platform growth.
 
@@ -14,6 +14,7 @@ localization, and platform growth.
 ## Dataset
 Public Netflix catalog metadata sourced from TMDB API.
 Includes title type, genre, release year, etc.
+Particularly only within South East Asia, Australia/New Zealand, and Taiwan/Hong Kong
 
 ## Research Questions
 - How has Netflix’s content mix (movies vs series) evolved over time?
@@ -26,7 +27,7 @@ Includes title type, genre, release year, etc.
 
 ## Key Findings
 - Netflix has increasingly prioritized series over movies since ~2016
-- A small subset of genres dominates global distribution
+- A small subset of genres dominates regional distribution
 - Regional catalogs show increasing localization in recent years
 
 
