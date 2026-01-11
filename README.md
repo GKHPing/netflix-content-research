@@ -7,8 +7,7 @@ localization, and platform growth.
 
 - It is designed as a research-style analysis rather than a dashboard or technical demo. 
 - Uses public data on TMDB and does not represent Netflix internal data models or strategic decisions
-- Data cleaning and feature engineering
-- Descriptive and comparative analysis across regions and time
+- Data cleaning with descriptive and comparative analysis across regions and time
 - Visualization-driven insight development
 
 ## Dataset
