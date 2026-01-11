@@ -23,6 +23,7 @@ Key fields used:
 Limitations:
 - No viewership or engagement data
 - Multi-country entries complicate regional attribution
+- Limit up to 50 pages for each Movies and TV shows as it called via API not a entire data dump to consume
 
 ## 2. Pull data from TMDB via API
 
