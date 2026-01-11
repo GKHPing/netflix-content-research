@@ -6,7 +6,7 @@ TMDB offers a powerful API service that allowed me to call and pull a curated da
 including titles, genres spilt between movies and tv shows
 
 ## Dataset used
-This tabular dataset consists of listings of all the movies and tv shows available on Netflix and I limit it to 50 pages. It includes details such as titles, genres, release dates, ratings, descriptions, and other relevant metadata. 
+This tabular dataset consists of listings of all the movies and tv shows available on Netflix and I limit it to 50 pages. It includes details such as titles, genres, release dates, popularity, and other relevant metadata. 
 The dataset has been curated to provide a comprehensive overview of Netflix's content library, making it useful for data analysis.
 
 Only checks Netflix availability in for faster than global fetch since regions are limited:
