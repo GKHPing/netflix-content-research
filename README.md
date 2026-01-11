@@ -16,17 +16,14 @@ Includes title type, genre, release year, etc.
 Particularly only within South East Asia, Australia/New Zealand, and Taiwan/Hong Kong
 
 ## Research Questions
-- How has Netflix’s content mix (movies vs series) evolved over time?
+- How has Netflix’s regional distribution strategy evolved over time, regardless of content type?
 - Which genres appear most regionally distributed?
-- How does regional localization vary across markets?
 
 ## Deliverables
 - Visual summaries for non-technical stakeholders
 - Written research narrative based on regions in SEA/New Zealand/Australia/Taiwan/Hong Kong
 
 ## Key Findings
-- Netflix has increasingly prioritized series over movies since ~2016
-- A small subset of genres dominates regional distribution
-- Regional catalogs show increasing localization in recent years
-
+- Netflix appears to be increasingly favoring content that can be deployed across multiple regional markets, reflecting both cost efficiencies and the maturation of regional streaming ecosystems.
+- A subset of genres dominates regional distribution
 
