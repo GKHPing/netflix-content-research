@@ -13,7 +13,7 @@ localization, and platform growth.
 
 ## Dataset
 Public Netflix catalog metadata sourced from TMDB API.
-Includes title type, genre, release year, country availability, and duration.
+Includes title type, genre, release year, etc.
 
 ## Research Questions
 - How has Netflix’s content mix (movies vs series) evolved over time?
