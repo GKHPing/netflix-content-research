@@ -26,14 +26,14 @@ Limitations:
 
 ## 2. Pull data from TMDB via API
 
--NETFLIX_PROVIDER_ID = 8    # TMDB provider ID for Netflix
--regions = ["SG","MY","ID","PH","TH","VN","BN","AU","NZ","TW","HK"]
+- NETFLIX_PROVIDER_ID = 8   
+- regions = ["SG","MY","ID","PH","TH","VN","BN","AU","NZ","TW","HK"]
 
 ## 3. Data Cleaning
 
--Parse dates and basic cleaning of genre and data added estimate fields
--Limit data to 2025
--Deduplicate titles
+- Parse dates and basic cleaning of genre and data added estimate fields
+- Limit data to 2025
+- Deduplicate titles
 
 
 ## 5. Analysis & Findings
