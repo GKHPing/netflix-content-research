@@ -17,7 +17,7 @@ Includes title type, genre, release year, country availability, and duration.
 
 ## Research Questions
 - How has Netflix’s content mix (movies vs series) evolved over time?
-- Which genres appear most globally distributed?
+- Which genres appear most regionally distributed?
 - How does regional localization vary across markets?
 
 ## Deliverables
